@@ -1,3 +1,7 @@
 {
-    "livePreview.customExternalBrowser": "Chrome"
+    "livePreview.customExternalBrowser": "Chrome",
+    "fiveServer.browser": [
+
+    ]
 }
+

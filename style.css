@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    background: url('./images/2151393886\ \(1\).jpg') center/cover fixed;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar {
+    padding-bottom: 830px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    margin: 10px;
+    padding: 50px;
+    float: right;
+    font-size: 25px;
+}
+
+.navbar nav ul li {
+    display: inline;
+    padding: 0 30px;
+}
+
+.navbar img {
+    height: 200px;
+    width: 250px;
+    border-radius: 50%;
+    padding: 30px 50px;
+    margin-right: 300px;
+}
+
+.navbar nav li button {
+    height: 40px;
+    width: 120px;
+    font-size: 17px;
+    border: none;
+    box-shadow: 2px 2px;
+    transition: transform 0.5s ease;
+}
+
+.navbar nav li button:hover {
+    transform: translateY(-10px);
+    color: #91baaf;
+}
+
+nav button {
+    background-color: #d7d4bf;
+}
+
+.vertical-line {
+    position: absolute;
+    height: 40%;
+    width: 2px;
+    background-color: #91baaf;
+    bottom: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.intro {
+    text-align: left;
+    padding: 80px 100px;
+}
+
+.intro span {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.intro h1 {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.intro h1:hover,
+.intro span:hover,
+.intro p:hover {
+    opacity: 0.6;
+}
+
+.intro p {
+    font-size: 20px;
+}
+
+.video {
+    float: right;
+    padding-right: 70px;
+}
+
+.Hero {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.intro-video {
+    padding: 50px 85px 0 0;
+}
+
+#paragra {
+    margin-right: 100px;
+    margin-top: 50px;
+    font-weight: 90;
+    font-family: cursive, sans-serif;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.intro h3{
+    font-size:80px;
+    font-weight:200px;
+}
+.intro a{
+    border:2px solid #fff;
+    border-radius:50px;
+    padding:4px 7px;
+    color:white;
+}
+.intro a:hover{
+    color:#91baaf;
+}
+.about p{
+   display: inline-block;
+   justify-content: left;
+   padding:5px;
+}
+
+.bio-image img{
+    padding:0px;
+    height: 400px;
+    width: 400px;
+}
+.bio-image{
+    margin-top:90px ;
+}
+
+.table-content{
+    display: flex;
+    position: relative;
+    padding: 0px;
+    margin: 80px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    
+}
+.table1 th{
+    font-size:30px;
+    color:#d7d4bf;
+    padding-left: 70px;
+}
+.table1 td{
+    padding-top:6px;
+}
+.table1{
+    border:2px white;
+    font-size: 20px;
+   
+}
+.table1 th:hover{
+    color:white;
+}
+.table2 th{
+    font-size:30px;
+    color:#d7d4bf
+}
+.table2 th:hover{
+      color:white;
+}
+.table2 td{
+    padding-top:6px;
+}
+.table2{
+    border:2px white;
+    font-size: 20px;
+    padding-right: 70px;
+}
+.form{
+    margin-top: 20px;
+}
+.form h1{
+    font-size:50px;
+    font-weight:200px;
+}
+.form p{
+    font-size: 20px;
+    padding: 20px;
+}
+.form h1 p:hover{
+        opacity: 0.6;
+}
+.footer {
+    background-color:#91baaf;
+    padding: 60px;
+    margin-top: 200px;
+    text-align: center;
+}
+.form input{
+    height:30px;
+}
+.form .send{
+    background-color: #d7d4bf;
+    height:40px;
+    width:90px;
+    cursor: pointer;
+}
+.form .send:hover{
+    background-color: #91baaf;
+}
+.footer-container{
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: auto;
+    text-align: left;
+    margin-right: 200px;
+}
+.contact-info,
+.social-media {
+    width: 45%; /* Adjust the width as needed */
+}
+.map{
+    float:right;
+}
+.contact-info h3{
+    font-size:50px;
+    font-weight: 60px;
+    padding-bottom:5px;
+}
+.social-media h3{
+    font-size:50px;
+    font-weight: 60px;
+}
+.contact-info li{
+  padding-top:10px ;
+  
+}
+.social-media li{
+    padding-top:10px;
+}
+.social-media a{
+    color:white;
+}
+.social-media a:hover{
+     color:blue;
+}
+
+
+
