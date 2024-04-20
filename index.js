@@ -1,0 +1,3 @@
+const name = "Nhlakanipho";
+const surname = "Radebe";
+const bio = "Dynamic and motivated Biokinetics graduate seeking to leverage academic background and passion for improving human movement and performance in a professional setting. Eager to contribute to a team dedicated to enhancing health and wellness outcomes. I'm also a tech enthusiast with a keen interest in web development. Proficient in HTML, CSS, and JavaScript, I enjoy exploring the intersection of technology and health, seeking innovative ways to integrate digital solutions into rehabilitation practices. Whether on the field or behind the screen, I'm committed to leveraging my diverse interests and expertise to make a meaningful impact in the field of biokinetics and sports rehabilitation.";
