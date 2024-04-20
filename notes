@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <body>
         <div class="container">
             <div class="navbar" id="nav">
                 <div class="vertical-line"></div>
@@ -98,6 +99,7 @@
                 </div>
             </div> 
         </div>
+        <body>
             <div class="form" id="footer">
                 <h1>Contact Me</h1>
             <p>Feel free to reach out to me by filling out the form below:</p>
@@ -106,7 +108,7 @@
                 <input type="text" id="name" name="name" required><br><br>
                 
                 <label for="name">Surname:</label><br>
-                <input type="text" id="surname" name="surname" required><br><br>
+                <input type="text" id="name" name="name" required><br><br>
                 
                 <label for="email">Email:</label><br>
                 <input type="email" id="email" name="email" required><br><br>
