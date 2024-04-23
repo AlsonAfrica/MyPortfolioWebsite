@@ -189,7 +189,7 @@ nav button {
     padding-right: 70px;
 }
 .form{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .form h1{
     font-size:50px;
@@ -197,7 +197,7 @@ nav button {
 }
 .form p{
     font-size: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 .form h1 p:hover{
         opacity: 0.6;
@@ -209,16 +209,16 @@ nav button {
     text-align: center;
 }
 .form input{
-    height:30px;
+    height:40px;
 }
-.form .send{
-    background-color: #d7d4bf;
+.send-btn{
+    background-color: #91baaf;
     height:40px;
     width:90px;
     cursor: pointer;
 }
-.form .send:hover{
-    background-color: #91baaf;
+.send-btn:hover{
+    background-color: #0ea31f85;
 }
 .footer-container{
     display: flex;
@@ -230,7 +230,7 @@ nav button {
 }
 .contact-info,
 .social-media {
-    width: 45%; /* Adjust the width as needed */
+    width: 45%;
 }
 .map{
     float:right;
@@ -258,5 +258,54 @@ nav button {
      color:blue;
 }
 
+.form {
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.input-group label {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.input-group input,
+.input-group textarea {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input-group textarea {
+    height: 200px;
+}
+
+.input-group button {
+    flex: 1;
+    padding: 10px;
+    background-color: #45a049;
+    color: #45a049;
+    border: dotted;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.input-group button:hover {
+    background-color: #45a049;
+}
 
 

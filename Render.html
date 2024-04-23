@@ -6,153 +6,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Web Page</title>
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
 </head>
 <body>
-        <div class="container">
-            <div class="navbar" id="nav">
-                <div class="vertical-line"></div>
-                <nav>
-                    <ul>
-                        <li><a href="#nav"><button>Home</button></a></li>
-                        <li><a href="#about"><button>About</button></a></li>
-                        <li><a href="#footer"><button>Contacts</button></a></li>
-                    </ul>
-                </nav>
-                <img src="./images/unnamed.png" alt="personallogo">
-                <hr>
-               <!---End of navbar-->
+    <div class="container">
+        <div class="navbar" id="nav">
+            <div class="vertical-line"></div>
+            <nav>
+                <ul>
+                    <li><a href="#nav"><button>Home</button></a></li>
+                    <li><a href="#about"><button>About</button></a></li>
+                    <li><a href="#footer"><button>Contacts</button></a></li>
+                </ul>
+            </nav>
+            <img src="./images/unnamed.png" alt="personallogo">
+            <hr>
+           <!---End of navbar-->
 
-               <div class="Hero">
-                <div class="intro">
-                    <span>Hello It's me!</span>
-                     <h1>Nhlakanipho Radebe</h1>
-                      <p>A Web Developer: Based in Gauteng Soweto</p>
-                      <p id="paragra">
-                        Dynamic and motivated Biokinetics graduate seeking to leverage academic background
-                        and passion for improving human movement and performance in a professional setting.
-                        Eager to contribute to a team dedicated to enhancing health and wellness outcomes. I'm
-                        also a tech enthusiast with a keen interest in web development. Proficient in HTML, CSS,
-                        and JavaScript, I enjoy exploring the intersection of technology and health, seeking
-                        innovative ways to integrate digital solutions into rehabilitation practices. Whether on
-                        the field or behind the screen, I'm committed to leveraging my diverse interests and
-                        expertise to make a meaningful impact in the field of biokinetics and sports
-                        rehabilitation </p>
-                </div>
-                <div class="intro-video">
-                    <video width="500px" height="400px" controls>
-                        <source src="./video/Apple Steve Jobs Heres To The Crazy Ones.mp4" type="video/mp4">
-                    </video>
-                </div>
+           <div class="Hero">
+            <div class="intro">
+                <span>Hello It's me!</span>
+                 <h1 id="fullName"></h1>
+                  <p id="bio"></p>
             </div>
-            <!----end of home section-->
-            <div class="about" id="about">
-                <div class="intro"><h3>So who am I?</h3>
-                    <p>I am a 24 year old male who currently resides at Johannesburg Gauteng Soweto, completed my matric at Seanamarena High School in 2017. Furthered my studied at the University of johannesburg under the department of Health Sciences and graduated with a Bachelors degree in <b>Biokinetics.Worked at various places including Pick and Pay, Saayc Soweto and Sir Innocent Academy.</b></p>
-                     <p>For my detailed Resume please click the <a href="./Resume/Nhlakanipho Radebe Resume.pdf">Button</a></p>
-                     <p>View my projects on <a href="https://github.com/AlsonAfrica">Github</a></p>
-                </div>
-                <div class="bio-image">
-                    <img src="./images/WhatsApp Image 2023-08-09 at 20.31.17.jpg">
-                </div>
+            <div class="intro-video">
+                <video width="500px" height="400px" controls>
+                    <source src="./video/Apple Steve Jobs Heres To The Crazy Ones.mp4" type="video/mp4">
+                </video>
             </div>
-            <div class="table-content">
-                <!---table1-->
-                <div class="table1">
-                    <table>
-                        <tr>
-                            <th>Qualifications and Certificates</th>
-                        </tr>
-                        <tr>
-                            <td>Matric</td>
-                          </tr>
-                          <tr>
-                            <td>Bachelor Degree in Biokinetics</td>
-                          </tr>
-                          <tr>
-                            <td>End User Computing</td>
-                          </tr>
-                          <tr>
-                            <td>Intro to Web Development</td>
-                          </tr>
-                    </table>
-                </div>
-                <div class="table2">
-                    <div class="table2">
-                        <table>
-                            <tr>
-                                <th>Skills</th>
-                            </tr>
-                            <tr>
-                                <td>HTML,CSS,JavaScript</td>
-                              </tr>
-                              <tr>
-                                <td>Microsoft 365</td>
-                              </tr>
-                              <tr>
-                                <td>Critical Thinking</td>
-                              </tr>
-                              <tr>
-                                <td>Leader</td>
-                              </tr>
-                        </table>
-                </div>
-            </div> 
         </div>
-            <div class="form" id="footer">
-                <h1>Contact Me</h1>
-            <p>Feel free to reach out to me by filling out the form below:</p>
-            <form action="#" method="POST">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
-                
-                <label for="name">Surname:</label><br>
-                <input type="text" id="surname" name="surname" required><br><br>
-                
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-                
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" required></textarea><br><br>
-                
-                <input type="submit" value="Send" class="send">
-            </form>
-    
+        <!----end of home section-->
+        <div class="about" id="about">
+            <div class="intro"><h3>So who am I?</h3>
+                <p id="personalInfo"></p>
+                <p>For my detailed Resume please click the <a href="./Resume/Nhlakanipho Radebe Resume.pdf">Button</a></p>
+                <p>View my projects on <a href="https://github.com/AlsonAfrica">Github</a></p>
             </div>
-            <div class="footer">
-                <footer>
-                    <div class="footer-container">
-                        <div class="contact-info">
-                            <h3>Contacts</h3>
-                            <ul>
-                                <li>Email: nhlakaniphoradebe337@gmail.com</li>
-                                <li>Phone: 082 323 0382</li>
-                                <li>Address: 640 Rammatli Street Molapo</li>
-                            </ul>
-                        </div>
-                        <div class="social-media">
-                            <h3>Socials</h3>
-                            <ul>
-                
-                                <li><a href="https://github.com/AlsonAfrica">Github</a></li>
-                                <li><a href="https://www.linkedin.com/in/nhlakanipho-alson-radebe-83559a288/">LinkedIn</a></li>
-                                <li><a href="https://www.instagram.com/">Instagram</a></li>
-                                <li><a href="https://web.facebook.com/?_rdc=1&_rdr">Facebook</a></li>
-                            </ul>
-                        </div>
-                        <div class="map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.1549538507443!2d27.858668199999997!3d-26.256633899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a6c198a98723%3A0x92be6fc4894a91f5!2sRammatli%20St%2C%20Molapo%2C%20Soweto!5e0!3m2!1sen!2sza!4v1713124264625!5m2!1sen!2sza" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                        </div>
-                    </div>
-                </footer>
+            <div class="bio-image">
+                <img src="./images/WhatsApp Image 2023-08-09 at 20.31.17.jpg">
             </div>
+        </div>
+        <div class="table-content">
+            <!---table1-->
+            <div class="table1">
+                <table>
+                    <tr>
+                        <th>Qualifications and Certificates</th>
+                    </tr>
+                    <tbody id="qualificationsTable"></tbody>
+                </table>
+            </div>
+            <div class="table2">
+                <table>
+                    <tr>
+                        <th>Skills</th>
+                    </tr>
+                    <tbody id="skillsTable"></tbody>
+                </table>
+            </div>
+        </div> 
+    </div>
+    <body>
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out to me by filling out the form below:</p>
+        <div class="form">
+        <form action="https://formspree.io/f/xoqgykkn" method="POST">
+            <label>
+                Your Name:
+                <input type="text" name="name" id="contactName" placeholder="Name">
+            </label>
+            <label>
+                Your Surname:
+                <input type="text" name="surname" id="contactSurname" placeholder="Surname">
+            </label>
+            <label>
+                Your email:
+                <input type="email" name="email" id="contactEmail" placeholder="E-mail">
+            </label>
+            <label>
+                Your message:
+                <textarea name="message" id="contactMessage" placeholder="Let us chat"></textarea>
+            </label>
             
-
+            <button type="submit" class="send-btn">Send</button>
+        </form>
+        </div>
+        <div class="footer">
+            <footer>
+                <div class="footer-container">
+                    <div class="contact-info">
+                        <h3>Contacts</h3>
+                        <ul>
+                            <li>Email: <span id="contactEmailInfo"></span></li>
+                            <li>Phone: <span id="contactPhoneInfo"></span></li>
+                            <li>Address: <span id="contactAddressInfo"></span></li>
+                        </ul>
+                    </div>
+                    <div class="social-media">
+                        <h3>Socials</h3>
+                        <ul>
+                            <li><a href="https://github.com/AlsonAfrica">Github</a></li>
+                            <li><a href="https://www.linkedin.com/in/nhlakanipho-alson-radebe-83559a288/">LinkedIn</a></li>
+                            <li><a href="https://www.instagram.com/">Instagram</a></li>
+                            <li><a href="https://web.facebook.com/?_rdc=1&_rdr">Facebook</a></li>
+                        </ul>
+                    </div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.1549538507443!2d27.858668199999997!3d-26.256633899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a6c198a98723%3A0x92be6fc4894a91f5!2sRammatli%20St%2C%20Molapo%2C%20Soweto!5e0!3m2!1sen!2sza!4v1713124264625!5m2!1sen!2sza" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
-   
-
 
 
  
